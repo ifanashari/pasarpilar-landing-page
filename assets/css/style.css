@@ -1,3 +1,12 @@
+/* ==========><>|Global|<><========== */
+
+.img-fluid__custom{
+    max-width: 70%;
+    height: auto;    
+}
+
+/* ==========><>|Global|<><========== */
+
 /* ==========><>|Card Problem|<><========== */
 
 .card-problem__dark{
@@ -19,6 +28,8 @@
 
 /* ==========><>|Header|<><========== */
 
+/* ==========><>|Background|<><========== */
+
 .dark-bg{
     background: #f8f8ff;
 }
@@ -26,3 +37,30 @@
 .footer-bg{
     background: #f8faf9;
 }
+
+/* ==========><>|Background|<><========== */
+
+/* ==========><>|Font-color|<><========== */
+
+.main-color{
+    color: #24A437;
+}
+
+/* ==========><>|Font-color|<><========== */
+
+/* ==========><>|Navigation|<><========== */
+
+.nav-fix__body__nav-list__list-item{
+    color: #535353;
+    transition: .2s;
+}
+
+.nav-fix__body__nav-list__list-item:hover{
+    text-decoration: none;
+    color: #24A437;
+    cursor: pointer;
+}
+
+/* ==========><>|Navigation|<><========== */
+
+
