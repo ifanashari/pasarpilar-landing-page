@@ -61,6 +61,39 @@
     cursor: pointer;
 }
 
+@media (max-width: 1024px){
+    .nav-fix__body__nav-list__list-item{
+        padding: .5rem 0;
+    }
+
+    .nav-fix__body__menu{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1025px){
+    .nav-fix__body__menu{
+        display: none !important;
+    }
+}
+
 /* ==========><>|Navigation|<><========== */
 
+/* ==========><>|Form|<><========== */
 
+.form-control__custom{
+    border-color: transparent;
+    border-radius: 99999px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
+}
+
+/* ==========><>|Form|<><========== */
+
+/* ==========><>|Carousel|<><========== */
+
+.story-carousel{
+    border-radius: 18px;
+}
+
+/* ==========><>|Carousel|<><========== */
