@@ -1,7 +1,28 @@
 /* ==========><>|Card Problem|<><========== */
 
-.card-problem{
+.card-problem__dark{
     background: #f8f8ff;
 }
 
+.card-problem__light{
+    background: #ffffff;
+}
+
 /* ==========><>|Card Problem|<><========== */
+
+/* ==========><>|Header|<><========== */
+
+.header{
+    background: url(../images/background-header.png) no-repeat center;
+    background-size: cover;
+}
+
+/* ==========><>|Header|<><========== */
+
+.dark-bg{
+    background: #f8f8ff;
+}
+
+.footer-bg{
+    background: #f8faf9;
+}
