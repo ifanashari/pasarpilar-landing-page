@@ -10,24 +10,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/layout.css">
 
-    <title>Document</title>
+    <link rel="icon" href="assets/images/web-icon.png">
+
+    <title>Pasar Pilar</title>
 </head>
 <body>
 
+    <!-- ==========><>|Navbar|<><========== -->
+
+    <div class="nav-fix py-3">
+        <div class="container">
+            <div class="nav-fix__body">
+                <div class="nav-fix__body__brand">
+                    <img src="assets/images/main-logo.png" alt="">
+                </div>
+
+                <div class="nav-fix__body__menu">
+                    <img src="assets/svg/menu.svg" alt="">
+                </div>
+
+                <div class="nav-fix__body__nav-list">
+                    <a href="#header" class="nav-fix__body__nav-list__list-item px-4">Home</a>
+                    <a href="#section-farmer" class="nav-fix__body__nav-list__list-item px-4">Petani</a>
+                    <a href="#section-dealer" class="nav-fix__body__nav-list__list-item px-4">Pedagang</a>
+                    <a href="#section-story" class="nav-fix__body__nav-list__list-item px-4">Testimoni</a>
+                    <a href="#let-us-know">
+                        <button class="btn btn__custom btn__custom__fill py-2 px-5">Kabari Kami</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==========><>|Navbar|<><========== -->
+
     <!-- ==========><>|Header|<><========== -->
-    <div class="header mb-5">
+    <div class="header mb-5" id="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 font-weight-bold">
-                    <h1>SAHABAT PASAR DAN PRODUSEN</h1>
+                <div class="col-md-6">
+                    <h1 class="main-color font-weight-bold">SAHABAT PASAR DAN PRODUSEN</h1>
                     
-                    <p class="my-3">
+                    <p class="my-4 lead">
                         Kami akan membantu para pedagang pasar dan petani 
                         untuk mengembangkan produknya sehingga akan meningkatkan 
                         daya belidan daya jual.
                     </p>
     
-                    <button type="button" class="btn btn__custom">Lihat selengkapnya</button>
+                    <button type="button" class="btn btn__custom btn__custom__outline py-2 px-5">Lihat selengkapnya</button>
                 </div>
     
                 <div class="col-md-6">
@@ -43,14 +74,14 @@
 
     <!-- ==========><>|Section farmer|<><========== -->
     
-    <div class="container problem-container mb-5">
+    <div class="container problem-container mb-5" id="section-farmer">
         <!-- ==========><>|Section farmer title|<><========== -->
         <div class="row mb-5">
             <div class="col-md-12">
-                <h2 class="text-center">
+                <h2 class="text-center font-weight-bold">
                     Jika Anda  
-                    <span class="font-weight-bold">Petani</span> 
-                    Sering Mengalami <br> 
+                    <span class="main-color">Petani</span> 
+                    Sering Mengalami
                     Seperti ini ?
                 </h2>
             </div>
@@ -104,15 +135,15 @@
 
     <!-- ==========><>|Section dealer|<><========== -->
 
-    <div class="dark-bg py-5">
+    <div class="dark-bg py-5" id="section-dealer">
         <div class="container problem-container">
             <!-- ==========><>|Section dealer title|<><========== -->
             <div class="row mb-5">
                 <div class="col-md-12">
-                    <h2 class="text-center">
+                    <h2 class="text-center font-weight-bold">
                         Anda  
-                        <span class="font-weight-bold">Pedagan Pasar</span> 
-                        Juga Sering Mengalami <br> 
+                        <span class="main-color">Pedagan Pasar</span> 
+                        Juga Sering Mengalami
                         Seperti ini ?
                     </h2>
                 </div>
@@ -169,7 +200,7 @@
     
     <!-- ==========><>|Section story|<><========== -->    
 
-    <div class="container py-5">
+    <div class="container py-5" id="section-story">
         <div class="row py-5">
             <div class="col-md-6">
                 <h2 class="font-weight-bold mb-3">
@@ -187,7 +218,7 @@
             </div>
 
             <div class="col-md-6">
-                <div class="story-carousel">
+                <div class="story-carousel dark-bg pa-3">
                     <div id="carousel-story" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -218,11 +249,11 @@
 
     <!-- ==========><>|Footer|<><========== -->    
 
-    <div class="footer-bg py-5">
+    <div class="footer-bg py-5" id="let-us-know">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="assets/images/image-footer.png" alt="">
+                <div class="col-md-6 mb-3">
+                    <img class="img-fluid__custom" src="assets/images/image-footer.png" alt="">
                 </div>
 
                 <div class="col-md-6">
@@ -238,11 +269,15 @@
 
                     <form action="">
                         <div class="form-group mb-3">
-                            <input type="name" class="form-control" id="name-input" placeholder="Masukkan nama anda">
+                            <input type="name" class="form-control form-control__custom px-4 py-3" id="name-input" placeholder="Masukkan nama anda">
                         </div>
 
                         <div class="form-group">
-                            <input type="name" class="form-control" id="name-input" placeholder="Masukkan nama anda">
+                            <input type="number" class="form-control form-control__custom px-4 py-3" id="number-input" placeholder="Masukkan nomor handphone anda">
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn__custom btn__custom__fill py-3 px-5">Kirim Sekarang</button>
                         </div>
                     </form>
                 </div>
@@ -258,6 +293,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- ==========><>|Script|<><========== -->    
 </body>

@@ -1,3 +1,12 @@
+/* ==========><>|Global|<><========== */
+
+.img-fluid__custom{
+    max-width: 70%;
+    height: auto;    
+}
+
+/* ==========><>|Global|<><========== */
+
 /* ==========><>|Card Problem|<><========== */
 
 .card-problem__dark{
@@ -19,6 +28,8 @@
 
 /* ==========><>|Header|<><========== */
 
+/* ==========><>|Background|<><========== */
+
 .dark-bg{
     background: #f8f8ff;
 }
@@ -26,3 +37,63 @@
 .footer-bg{
     background: #f8faf9;
 }
+
+/* ==========><>|Background|<><========== */
+
+/* ==========><>|Font-color|<><========== */
+
+.main-color{
+    color: #24A437;
+}
+
+/* ==========><>|Font-color|<><========== */
+
+/* ==========><>|Navigation|<><========== */
+
+.nav-fix__body__nav-list__list-item{
+    color: #535353;
+    transition: .2s;
+}
+
+.nav-fix__body__nav-list__list-item:hover{
+    text-decoration: none;
+    color: #24A437;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px){
+    .nav-fix__body__nav-list__list-item{
+        padding: .5rem 0;
+    }
+
+    .nav-fix__body__menu{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1025px){
+    .nav-fix__body__menu{
+        display: none !important;
+    }
+}
+
+/* ==========><>|Navigation|<><========== */
+
+/* ==========><>|Form|<><========== */
+
+.form-control__custom{
+    border-color: transparent;
+    border-radius: 99999px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
+}
+
+/* ==========><>|Form|<><========== */
+
+/* ==========><>|Carousel|<><========== */
+
+.story-carousel{
+    border-radius: 18px;
+}
+
+/* ==========><>|Carousel|<><========== */
